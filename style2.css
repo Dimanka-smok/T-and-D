@@ -88,6 +88,7 @@ body{
 @keyframes car {
 
     0%{
+        position: relative;
         left: 500px;
         opacity: 0;
     }
@@ -102,7 +103,6 @@ body{
 
 .sec1img{
     animation: car 1s linear;
-    position: relative;
 }
 
 .sec1text a{
