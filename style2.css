@@ -95,13 +95,14 @@ body{
     100%{
         left: 0px;
         opacity: 1;
-        z-index: -10;
     }
     
 }
 
 .sec1img{
     animation: car 1s linear;
+    z-index: -10;
+    position: relative;
 }
 
 .sec1text a{
